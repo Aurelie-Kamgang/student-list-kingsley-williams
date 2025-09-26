@@ -15,7 +15,7 @@ services:
       - PASSWORD=python
   
   student-list:
-    image: registry.gitlab.com/aurelie-kamgang/student-list-gitlab:main
+    image: registry.gitlab.com/aurelie-kamgang/student-list-gitlab:feature1
     ports:
       - 5000:5000
     volumes:
@@ -29,3 +29,4 @@ networks:
           
 
 version: '3.0'
+
